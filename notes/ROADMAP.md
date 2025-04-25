@@ -21,7 +21,7 @@
    - [x] `chore: configure TypeScript` - Set up tsconfig.json with strict mode
    - [x] `chore: set up ESLint and Prettier` - Configure code quality tools
    - [x] `chore: configure project directories` - Create folder structure
-   - [ ] `chore: set up environment variables` - Create .env files and example
+   - [x] `chore: set up environment variables` - Create .env files and example
 
 2. **UI Foundation**
    **Branch:** `feature/ui-foundation`
