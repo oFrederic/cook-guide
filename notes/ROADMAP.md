@@ -20,7 +20,7 @@
    - [x] `chore: initialize Next.js project with App Router` - Create base project
    - [x] `chore: configure TypeScript` - Set up tsconfig.json with strict mode
    - [x] `chore: set up ESLint and Prettier` - Configure code quality tools
-   - [ ] `chore: configure project directories` - Create folder structure
+   - [x] `chore: configure project directories` - Create folder structure
    - [ ] `chore: set up environment variables` - Create .env files and example
 
 2. **UI Foundation**
