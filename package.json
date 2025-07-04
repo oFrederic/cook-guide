@@ -1,0 +1,27 @@
+{
+  "name": "cook-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for CookGuide: a full-stack recipe website (Vue 3, Express, PostgreSQL)",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "format": "npm run format --workspaces",
+    "test": "npm run test --workspaces",
+    "clean": "rimraf ./node_modules ./frontend/node_modules ./backend/node_modules ./shared/node_modules"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/cook-guide.git"
+  },
+  "author": "Frederic Wojcikowski <wojcikowskif@gmail.com>"
+} 
